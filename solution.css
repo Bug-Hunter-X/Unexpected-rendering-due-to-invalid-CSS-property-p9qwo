@@ -1,0 +1,7 @@
+The solution is to simply remove the `font-size-adjust` property. It's rarely necessary and can introduce cross-browser inconsistencies.
+
+```css
+.element {
+  /* font-size-adjust: 0.5;  Removed */
+}
+```
